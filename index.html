@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Fat Free Mass Index(FFMI) Calculator</h1>
+        <p class="paragraph">Your Height(cm):</p>
+        <input type="number" class="input" id="height" value="180" placeholder="Enter your height in cm">
+        <p class="paragraph">Your Weight(kg):</p>
+        <input type="number" class="input" id="weight" value="80" placeholder="Enter your weight in kg">
+        <p class="paragraph">Your Body Fat Percentage:</p>
+        <input type="number" class="input" id="bodyFat" value="20" placeholder="Enter your body fat percentage">
+        <button class="btn" id="btn">Calculate FFMI</button>
+        <input disabled type="text" class="input" id="ffmi-result">
+        <h4 class="info-text">Muscularity Level: <span id="muscularityLevel"></span></h4>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
